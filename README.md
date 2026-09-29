@@ -154,23 +154,23 @@ The form data is validated and stored in MongoDB through the backend API.
 ```text
 portfolio/
 │
-├── frontend/
+├── portfolio/
 │   ├── public/
-│   │   ├── projects/
+│   │   ├── Photos/
 │   │   └── Ansh-Pandey-Resume.pdf
 │   │
 │   └── src/
-│       ├── components/
-│       │   ├── Header.jsx
-│       │   ├── Hero.jsx
-│       │   ├── About.jsx
-│       │   ├── Services.jsx
-│       │   ├── Skills.jsx
-│       │   ├── Projects.jsx
-│       │   ├── Contact.jsx
-│       │   └── Footer.jsx
+│       ├── Pages/
+│       │   ├── Home
+│       │   ├── About
+│       │   ├── Service
+│       │   ├── Skills
+│       │   ├── Project
+│       │   ├── Contact
 │       │
 │       ├── App.jsx
+│       ├── header.jsx
+│       ├── Footer.jsx
 │       ├── main.jsx
 │       └── index.css
 │
@@ -178,7 +178,7 @@ portfolio/
 │   ├── Model/
 │   ├── Schema/
 │   ├── utilis/
-│   ├── app.js
+│   ├── index.js
 │   ├── package.json
 │   └── .env
 │
