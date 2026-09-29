@@ -12,7 +12,8 @@ function Hero() {
                 <div className='hero-left col-lg-6 col-12'>
                     <h3 className='hero-second'>Hi, I'm</h3>
                     <h1 className='hero-title'>Ansh Pandey</h1>
-                    <p>I build a scalibal fullstac applications using React, Node.js, Express and Mongodb. i love clean code and fast Uis.</p>
+                    <p>I build modern, responsive, and scalable web applications using React, Node.js, Express, and MongoDB. I help businesses and individuals turn their ideas into fast, user-friendly websites.</p>
+                    <p>Available for freelance projects and web development opportunities.</p>
                     <div>
                         <button className='btn-primary' onClick={()=>navigate("/Projects")}>View Project</button>
                         <button className='btn-secondary' onClick={()=>navigate("/Contact")}>Let's Collaborate </button>

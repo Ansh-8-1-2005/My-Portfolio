@@ -15,6 +15,7 @@ const wrapasync = require("./utilis/wrapasync");
 
 app.use(cors({
     origin: [
+        "http://localhost:5173",
         "https://my-portfolio-frontend-ijaq.onrender.com"
     ],
     credentials: true
