@@ -41,7 +41,7 @@ function Contact() {
     form.classList.add("was-validated");
 
     try{
-      const res = await axios.post("http://localhost:8080/Contact" , {
+      const res = await axios.post("https://my-portfolio-qt49.onrender.com/Contact" , {
         name,
         email,
         message
