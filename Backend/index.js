@@ -10,7 +10,7 @@ const { Contact } = require("./Model/Model");
 const {contactJoiSchema} = require("./Schema");
 
 const ExpressError = require("./utilis/ExpressError");
-const wrapAsync = require("./utilis/wrapAsync");
+const wrapasync = require("./utilis/wrapasync");
 
 
 app.use(cors({
@@ -35,7 +35,7 @@ async function main(){
 }
 
 // contact form route
-app.post("/Contact", wrapAsync(async(req,res)=>{
+app.post("/Contact", wrapasync(async(req,res)=>{
     const {name, email, message} = req.body;
     const {error} = contactJoiSchema.validate(req.body);
     if(error){
